@@ -1,0 +1,85 @@
+body{
+    background-color: antiquewhite;
+    font-family: cursive;
+    opacity: 0;
+    animation: fadeIn 0.5s forwards;
+}
+
+@keyframes fadeIn {
+   from {opacity: 0;}
+   to {opacity: 1;}
+}
+
+header{
+    font-size: 32px;
+    display: inline;
+    padding: 5px 15px;
+    background-color: azure;
+    border-radius: 10px;
+}
+
+#heading{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+#imgContainer{
+    text-align: center;
+}
+
+img{
+    transition: all 0.3s ease-out;
+
+}
+
+img:hover{
+    transform: scale(1.1);
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    font-size: 32px;
+    text-align: center;
+}
+
+
+button{
+    border-radius: 10px;
+    padding: 15px;
+    background-color: gray;
+    border: none;
+    border: solid 3px black;
+    color: azure;
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover{
+    transform: scale(1.1);
+    background-color: darkgray;
+}
+
+#buttonContainer{
+    margin-top: 15px;
+    text-align: center;
+
+}
+
+
+#myCanvas{
+    border: solid black 2px;
+    background-color: gray;
+}
+
+#canvasContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+}
+
